@@ -1,21 +1,21 @@
-#Edunet-Final-Project
-##Image-Based Steganography and Encryption Tool
+# Edunet-Final-Project
+## Image-Based Steganography and Encryption Tool
 
 This Python program provides a basic method for hiding secret messages within an image. It encrypts a text message by altering the pixel values of the image and requires a passcode to decrypt and reveal the hidden message.
 
-###Features:
+### Features:
 - Encryption: Hides a secret message inside an image file using pixel manipulation.
 - Decryption: Reveals the hidden message from the image using the correct passcode.
 - User-friendly Interface: Simple prompts to input the file location, secret message, and passcode.
 
-###Technologies Used:
+### Technologies Used:
 - Python: The program is written in Python, a powerful programming language.
 - OpenCV (cv2): The OpenCV library is used to read, modify, and save the image file.
 - OS Module: Utilized to open the encrypted image in the default image viewer.
 - Dictionaries: The program uses dictionaries to map characters to pixel values and vice versa.
 - Basic Image Steganography: The encryption is done by manipulating pixel values to encode the message.
 
-###Installation Instructions:
+### Installation Instructions:
 1. Install Python 3.x
    Ensure you have Python 3.x installed on your system. You can download it from the official Python website: https://www.python.org/downloads/
 
@@ -31,7 +31,7 @@ This Python program provides a basic method for hiding secret messages within an
 
    Or simply download the Python file.
 
-###Usage Instructions:
+### Usage Instructions:
 Run the Program:
 Navigate to the directory where the Python file is located and execute it with Python:
 
@@ -60,7 +60,7 @@ Decrypting the message:
 Enter passcode for Decryption: mysecurepassword
 Decryption message: Hello, this is a secret message!
 
-###System Requirements:
+### System Requirements:
 - Operating System: Works on Windows, macOS, and Linux.
 - Python Version: Python 3.x.
 - Required Libraries: OpenCV library (opencv-python).
@@ -69,9 +69,9 @@ Decryption message: Hello, this is a secret message!
   - A modern processor (Intel Core i3 or higher recommended).
   - Adequate storage for image files.
 
-###Limitations:
+### Limitations:
 - Security: This encryption method is simple and intended for educational purposes. It is not suitable for highly sensitive information. Stronger encryption algorithms (e.g., AES) should be used for robust security.
 - Image Quality: The image may experience slight changes in pixel colors during encryption, but the changes are typically not noticeable to the human eye.
 
-###License:
+### License:
 This program is provided free of charge for personal and educational use. You are free to modify or distribute the code under the terms of the license, as long as proper attribution is given.
